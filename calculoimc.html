@@ -1,0 +1,26 @@
+<script>
+
+var nome = "nome"
+
+var calculaIMC = function(altura, peso){
+    var imcDoUsuario = peso /(altura * altura);
+    return imcDoUsuario;
+}
+
+var onome = prompt("Olá, Seja Bem Vindo(a)! Qual é o seu nome?")
+    
+var idade = prompt(onome + ", Qual a sua idade?");
+
+var nome = alert("Vamos te ajudar a descobrir seu Índice de Massa Corporal!");
+
+var altura = prompt("Qual a sua altura?");
+
+var peso = prompt ("Qual o seu peso atual?");
+
+var imcDoUsuario = calculaIMC(altura, peso);
+
+
+document.write("O seu Índice de Massa Corporal " + onome + " é de:" + imcDoUsuario );
+
+
+</script>
